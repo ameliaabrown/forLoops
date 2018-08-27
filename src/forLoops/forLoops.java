@@ -3,10 +3,10 @@ package forLoops;
 public class forLoops {
 
 	public static void main(String[] args) {
-	//challengeOne();
-	//challengeTwo();
-	//challengeThree();
-	//challengeFour();
+	challengeOne();
+	challengeTwo();
+	challengeThree();
+	challengeFour();
 	challengeFive();
 	}
 
@@ -17,7 +17,7 @@ public class forLoops {
 	
 	public static void challengeTwo(){
 		for (int i = 2; i<=10; i = i +2)
-			System.out.println("I love Mullen");
+			System.out.println(i + ". I love Mullen");
 	}
 	
 	public static void challengeThree(){
