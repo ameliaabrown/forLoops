@@ -3,11 +3,14 @@ package forLoops;
 public class forLoops {
 
 	public static void main(String[] args) {
-	challengeOne();
-	challengeTwo();
-	challengeThree();
-	challengeFour();
-	challengeFive();
+	//challengeOne();
+	//challengeTwo();
+	//challengeThree();
+	//challengeFour();
+	//challengeFive();
+		challengeSix();
+		challengeSeven();
+	challengeEight();
 	}
 
 	public static void challengeOne(){
@@ -34,5 +37,21 @@ public class forLoops {
 	public static void challengeFive(){
 		for (int i =5; i<=100; i=i+5)
 			System.out.println(i);
+	}
+	public static void challengeSix() {
+		
+	}
+	public static void challengeSeven() {
+		
+	}
+	
+	public static void challengeEight() 
+	{
+		System.out.print("*********");
+		for (int i =0; i<7; i++) 
+		{
+		System.out.println("*       *");	
+		}
+		System.out.println("*********");
 	}
 }
