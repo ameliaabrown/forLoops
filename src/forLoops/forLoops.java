@@ -3,13 +3,13 @@ package forLoops;
 public class forLoops {
 
 	public static void main(String[] args) {
-	challengeOne();
-	challengeTwo();
-	challengeThree();
-	challengeFour();
-	//challengeFive();
-	//challengeSix();
-	//challengeSeven();
+	//challengeOne();
+	//challengeTwo();
+	//challengeThree();
+	//challengeFour();
+	challengeFive();
+	challengeSix();
+	challengeSeven();
 	//challengeEight();
 	}
 
@@ -25,9 +25,12 @@ public class forLoops {
 	
 	public static void challengeThree(){
 		for (int i = 1; i<6; i++)
+		{
 			System.out.print(i);
+		}
+		System.out.println(" ");
+			
 	}
-	//need to seperate the 10 from the above assignment challenge two
 	
 	public static void challengeFour(){
 		for (int i =10; i>0; i--)
@@ -45,12 +48,13 @@ public class forLoops {
 		//need Scanner
 	}
 	public static void challengeSeven() {
-		
+		//typo in directions - start with challenge six but only divisible by three
 	}
 	
 	public static void challengeEight() 
 	{
 		System.out.print("*********");
+		System.out.println(" ");
 		for (int i =0; i<7; i++) 
 		{
 		System.out.println("*       *");	
