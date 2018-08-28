@@ -3,14 +3,14 @@ package forLoops;
 public class forLoops {
 
 	public static void main(String[] args) {
-	//challengeOne();
-	//challengeTwo();
-	//challengeThree();
-	//challengeFour();
+	challengeOne();
+	challengeTwo();
+	challengeThree();
+	challengeFour();
 	//challengeFive();
-		challengeSix();
-		challengeSeven();
-	challengeEight();
+	//challengeSix();
+	//challengeSeven();
+	//challengeEight();
 	}
 
 	public static void challengeOne(){
@@ -27,6 +27,7 @@ public class forLoops {
 		for (int i = 1; i<6; i++)
 			System.out.print(i);
 	}
+	//need to seperate the 10 from the above assignment challenge two
 	
 	public static void challengeFour(){
 		for (int i =10; i>0; i--)
@@ -39,7 +40,9 @@ public class forLoops {
 			System.out.println(i);
 	}
 	public static void challengeSix() {
-		
+		System.out.println("Please give an upperbound number.");
+		System.out.println("Please give a lowerbound number.");
+		//need Scanner
 	}
 	public static void challengeSeven() {
 		
