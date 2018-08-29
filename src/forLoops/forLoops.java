@@ -1,16 +1,16 @@
 package forLoops;
-
+import java.util.Scanner;
 public class forLoops {
 
 	public static void main(String[] args) {
-	//challengeOne();
-	//challengeTwo();
-	//challengeThree();
-	//challengeFour();
+	challengeOne();
+	challengeTwo();
+	challengeThree();
+	challengeFour();
 	challengeFive();
 	challengeSix();
 	challengeSeven();
-	//challengeEight();
+	challengeEight();
 	}
 
 	public static void challengeOne(){
@@ -39,16 +39,51 @@ public class forLoops {
 	}
 	
 	public static void challengeFive(){
+
+		int sum = 0;
 		for (int i =5; i<=100; i=i+5)
-			System.out.println(i);
+		{
+			sum = sum + i;
+		}
+		System.out.println("The sum is " + sum);
+			
 	}
+	
 	public static void challengeSix() {
+		Scanner upperbound = new Scanner(System.in);
+		Scanner lowerbound = new Scanner(System.in);
+		
 		System.out.println("Please give an upperbound number.");
+		int upper = upperbound.nextInt();
+		
 		System.out.println("Please give a lowerbound number.");
-		//need Scanner
+		int lower = lowerbound.nextInt();
+			
+	int sum = 0;
+	for (int run = 0; run <= upper; run = run+1)	
+	{
+		sum = sum + run;
 	}
+	System.out.println("The sum of all the numbers in that range is " + sum);	
+	}
+
 	public static void challengeSeven() {
-		//typo in directions - start with challenge six but only divisible by three
+		Scanner upperbound = new Scanner(System.in);
+		Scanner lowerbound = new Scanner(System.in);
+		
+		System.out.println("Please give an upperbound number.");
+		int upper = upperbound.nextInt();
+		
+		System.out.println("Please give a lowerbound number.");
+		int lower = lowerbound.nextInt();
+			
+	int sum = 0;
+	for (int run = 0; run <= upper; run = run+1)
+		if (run % 3 == 0)
+		{
+			sum = sum + run;
+		}
+	System.out.println("The sum of all the numbers in that range that are divisible by three is " + sum);	
 	}
 	
 	public static void challengeEight() 
